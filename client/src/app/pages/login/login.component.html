@@ -1,7 +1,17 @@
-<main class="container">
+<main class="container-fluid">
+    <!-- header section -->
+    <div class="hero-section other-hero-section">
+        <div class="hero-section-overlay">
+            <div class="hero-heading hero-heading-other">
+                <div class="hero-text">
+                    <h1>LOGIN</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
   <div class="row">
-      <div class="col-md-offset-4 col-md-4">
-          <h1>Please Login</h1>
+      <div class="col col-md-offset-4 col-md-4 margin-auto">
           <form autocomplete="off" (submit)="onLoginSubmit()">
               <fieldset class="form-group">
                   <label for="username">Username:</label>
@@ -20,7 +30,7 @@
                   <a routerLink="/register">Register Here</a>
               </fieldset>
               <fieldset class="form-group text-right">
-                  <input type="submit" class="btn btn-success" value="Login">
+                  <input type="submit" class="btn btn-success margin-buttons" value="Login">
                   <a routerLink="/home">
                       <input type="button" class="btn btn-warning" value="Cancel">
                   </a>
@@ -28,4 +38,5 @@
           </form>
       </div>
   </div>
+</div>
 </main>
