@@ -1,0 +1,18 @@
+/* 
+********************************************
+projects page's css 
+********************************************
+*/
+.project-lists .row{
+    margin: 25px auto;
+}
+.img-cols img{
+    width:100%;
+}
+.project-lists h3{
+    color:#ba68c8;
+}
+.hero-heading {
+    padding:65px 0px !important;
+}
+  

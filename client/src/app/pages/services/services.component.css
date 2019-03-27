@@ -1,0 +1,21 @@
+/* 
+********************************************
+services page's css 
+********************************************
+*/
+.services-lists .row{
+    margin:19px auto;
+}
+.services-lists .card a{
+    color:#fff;
+}
+.services-lists .card{
+    border: 1px solid #ba68c8;
+}
+.services-lists .card h5{
+    font-weight:bold;
+    color: #ba68c8;
+}
+.hero-heading {
+    padding:65px 0px !important;
+}
