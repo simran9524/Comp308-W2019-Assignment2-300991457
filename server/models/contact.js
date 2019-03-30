@@ -1,3 +1,9 @@
+/*
+    File name: contact.js
+    name: Simran
+    Student id: 300991457
+    date: 30 march, 2019
+*/
 let mongoose = require('mongoose');
 
 // create a model class

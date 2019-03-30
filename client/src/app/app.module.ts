@@ -1,3 +1,9 @@
+/*
+    File name: app.modules.ts
+    name: Simran
+    Student id: 300991457
+    date: 30 march, 2019
+*/
 // modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';

@@ -3,7 +3,12 @@
 /**
  * Module dependencies.
  */
-
+/*
+    File name: server.js
+    name: Simran
+    Student id: 300991457
+    date: 16 feb, 2019
+*/
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-lesson3b:server');
 let http = require('http');

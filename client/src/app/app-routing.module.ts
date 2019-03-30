@@ -1,3 +1,9 @@
+/*
+    File name: app-routing.modules.ts
+    name: Simran
+    Student id: 300991457
+    date: 30 march, 2019
+*/
 // modules
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';

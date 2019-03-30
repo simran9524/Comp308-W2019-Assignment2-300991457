@@ -1,3 +1,9 @@
+/*
+    File name: main.ts
+    name: Simran
+    Student id: 300991457
+    date: 30 march, 2019
+*/
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
