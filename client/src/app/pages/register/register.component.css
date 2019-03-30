@@ -1,0 +1,13 @@
+.hero-heading {
+    background-image: url('/assets/images/home.jpg');
+    padding:65px 0px !important;
+}
+.margins{
+    margin-top:15px;
+}
+.margin-buttons{
+    margin-right:9px;
+}
+main .row{
+    margin-right: 0px;
+}

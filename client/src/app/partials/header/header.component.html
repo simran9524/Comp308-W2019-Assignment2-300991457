@@ -17,24 +17,24 @@
       <li class="nav-item">
 
         <a class="nav-link" routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fas fa-lg fa-igloo"></i> Home </a
+          ><i class="fas fa-home"></i> Home </a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="about"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-info"></i> About</a>
+          ><i class="fa fa-info-circle"></i> About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="products"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-briefcase"></i> Products</a>
+          ><i class="fa fa-briefcase"></i> Products</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="services"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-birthday-cake"></i> Services</a>
+          ><i class="fa fa-cogs"></i> Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="contact"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-phone"></i> Contact</a>
+          ><i class="fa fa-phone"></i> Contact</a>
       </li>
 
 
@@ -42,10 +42,10 @@
           Welcome, {{ user.displayName }}</li>
 
         <li *ngIf="isLoggedIn()" class="nav-item"><a (click)="onLogoutClick()" routerLink="logout" class="nav-link">
-          <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
+          <i class="fas fa-sign-out-alt"></i> Logout</a></li>
 
         <li *ngIf="!isLoggedIn()" class="nav-item"><a routerLink="login" class="nav-link">
-          <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
+          <i class="fas fa-sign-in-alt"></i> Login</a></li>
 
     </ul>
   </div>

@@ -4,7 +4,7 @@ home page's css
 ********************************************
 */
 .hero-section{
-    /*background-image: url('../../assets/images/home.jpg');*/
+    /*background-image: url('../assets/images/home.jpg') no-repeat center;*/
     background-position: 100% 100%;
     background-size: 100% 100%;
     position: relative;
