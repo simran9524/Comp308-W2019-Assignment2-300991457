@@ -6,6 +6,6 @@
 */
 module.exports = {
 //"URI" : "mongodb://localhost/test",
-"URI" : "mongodb://simran:simran1@ds239009.mlab.com:39009/comp308_w2019_assignment2-300991457",
+"URI" : "mongodb://<simran>:<simran1>@ds060977.mlab.com:60977/comp308-w2019-300991457-assignment2",
 "secret": "SomeSecret"
 }
