@@ -4,7 +4,6 @@ home page's css
 ********************************************
 */
 .hero-section{
-    /*background-image: url('../assets/images/home.jpg') no-repeat center;*/
     background-position: 100% 100%;
     background-size: 100% 100%;
     position: relative;
@@ -25,6 +24,7 @@ home page's css
     padding:95px 15px;
     text-align:center; 
   }
+
   .hero-heading-about{
     padding: 25px 15px;
   }
@@ -32,6 +32,7 @@ home page's css
   .hero-text{
     margin-bottom:35px;
   }
+
   .hero-heading h1{
     letter-spacing:2px;
     font-size:59px;
