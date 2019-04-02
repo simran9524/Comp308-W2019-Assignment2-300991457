@@ -5,11 +5,12 @@
     date: 30 march, 2019
 */
 /* You can add global styles to this file, and also import other style files */
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
 /*body*/
 body {
-    font: 14px 'PT Sans Narrow', sans-serif;
+    font: 14px 'PT Sans Narrow', sans-serif !important;
 }
 .background-color{
     background-color: #ba68c8;
